@@ -9,11 +9,23 @@
   ```
 5. Click `OK` on all windows to save changes.
 
-## Downloading videos from YouTube 💾
+## Setting up python on Windows 🐍
 
-1. Install `yt-dlp` library.
+1. Open directory in command prompt.
+2. Create a virtual environment.
+  ```bash
+  python -m venv venv
+  ```
+3. Activate the virtual environment.
+  ```bash
+  .\venv\Scripts\activate
+  ```
+4.. Install `yt-dlp` library.
   ```bash
    pip install yt-dlp
   ```
-2. Run the `yt-downloader.py` script.
-3. Enter the URL of the YouTube video you want to download.
+
+## Downloading videos from YouTube 💾
+
+1. Run the `yt-downloader.py` script.
+2. Enter the URL of the YouTube video you want to download.
