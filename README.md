@@ -11,5 +11,9 @@
 
 ## Downloading videos from YouTube 💾
 
-1. Run the `yt-downloader.py` script.
-2. Enter the URL of the YouTube video you want to download.
+1. Install `yt-dlp` library.
+  ```bash
+   pip install yt-dlp
+  ```
+2. Run the `yt-downloader.py` script.
+3. Enter the URL of the YouTube video you want to download.
